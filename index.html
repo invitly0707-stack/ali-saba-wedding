@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ali & Alshifa — Royal Wedding</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <canvas id="particle-canvas"></canvas>
+
+  <nav id="navbar">
+    <div class="nav-container">
+      <a href="#" class="logo">A & S</a>
+      <button id="navToggle" aria-label="Toggle Navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="nav-links">
+        <a href="#hero">Home</a>
+        <a href="#story">Our Story</a>
+        <a href="#events">Events</a>
+        <a href="#rsvp">RSVP</a>
+      </div>
+    </div>
+  </nav>
+
+  <header id="hero">
+    <div class="hero-content">
+      <p class="fade-in" data-delay="0">The Wedding of</p>
+      <h1 class="fade-in" data-delay="300">Ali &amp; saba</h1>
+      <div class="hero-divider fade-in" data-delay="600">✨</div>
+      <p class="hero-date fade-in" data-delay="900">Save the Date — Coming Soon</p>
+    </div>
+  </header>
+
+  <section id="story" class="reveal">
+    <div class="container">
+      <h2 class="section-title">Our Story</h2>
+      <div class="story-box">
+        <p>Two hearts, intertwined by destiny and blessed by love. We invite you to join us as we embark on this beautiful journey of a lifetime. Your presence and blessings mean the world to us.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="events">
+    <div class="container">
+      <h2 class="section-title reveal">The Celebrations</h2>
+      <div class="events-grid">
+        <div class="reveal-card card" data-delay="0">
+          <h3>Mehndi Ceremony</h3>
+          <p class="event-time">To Be Announced</p>
+          <p>An evening filled with dance, music, and beautiful henna designs.</p>
+        </div>
+        <div class="reveal-card card" data-delay="150">
+          <h3>Nikaah &amp; Baraat</h3>
+          <p class="event-time">To Be Announced</p>
+          <p>The sacred union and the grand royal reception dinner.</p>
+        </div>
+        <div class="reveal-card card" data-delay="300">
+          <h3>Walima</h3>
+          <p class="event-time">To Be Announced</p>
+          <p>A joyous feast to celebrate our first moments as husband and wife.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="rsvp" class="reveal">
+    <div class="container">
+      <h2 class="section-title">Be the First to Know</h2>
+      <p class="rsvp-subtitle">Enter your email address to receive formal invitations and event details directly in your inbox.</p>
+      <div class="rsvp-form">
+        <input type="email" class="notify-input" placeholder="Your email address" aria-label="Email address">
+        <button class="notify-btn">Notify Me</button>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 Ali &amp; Alshifa. Forever &amp; saba.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
